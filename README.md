@@ -1,48 +1,54 @@
-# XIAO ESP32S3 Sense + ESPHome + Home Assistant
+# MiniCam ESP32 — XIAO ESP32S3 Sense (ESPHome) for Home Assistant Control Screen
 
 ![ESPHome](https://img.shields.io/badge/ESPHome-Compatible-000000?logo=esphome)
 ![Home Assistant](https://img.shields.io/badge/Home%20Assistant-Compatible-41BDF5?logo=homeassistant&logoColor=white)
 ![ESP32-S3](https://img.shields.io/badge/ESP32-S3-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen)
 ![Status](https://img.shields.io/badge/Status-Active-success)
 
-ESPHome camera project for integrating a Seeed Studio XIAO ESP32S3 Sense into Home Assistant.
-
-This repository provides a clean, reproducible and extensible starting point.
-
----
-
-## 🎯 Project Goals
-
-- ✅ Working ESPHome YAML configuration  
-- ✅ Camera streaming & snapshot (HTTP)  
-- ✅ Native Home Assistant integration (API)  
-- ✅ OTA updates  
-- 🔜 Future extensions: audio, SD storage, enclosure, direct power supply  
+This repository is a **starter + working reference** for a Home Assistant **control screen project** built with ESPHome.
+The first validated milestone is a **fully working camera** on the Seeed Studio **XIAO ESP32S3 Sense**.
 
 ---
 
-## 🧰 Hardware
+## What you get (current status)
 
-- Seeed Studio XIAO ESP32S3 Sense  
-- USB-C data cable  
-- 5V power supply (temporary solution)
-
----
-
-## 🏗 Architecture
-
-- ESPHome (firmware generation)
-- Native ESPHome API → Home Assistant
-- Optional HTTP camera stream (debugging)
-- OTA updates once deployed
+- ✅ Working ESPHome firmware (Wi-Fi, API encryption, OTA)
+- ✅ PSRAM enabled (required for camera)
+- ✅ Camera initialized and stable
+- ✅ HTTP endpoints:
+  - Stream: `http://<IP>:8080`
+  - Snapshot: `http://<IP>:8081`
+- ✅ Home Assistant integration via ESPHome API
 
 ---
 
-## 🚀 Quick Start
+## Next goal
 
-### 1️⃣ Configure secrets
+Turn this into a **Home Assistant control screen**:
+- UI/UX definition
+- Display selection + drivers
+- ESPHome display stack (LVGL or display component)
+- Core controls (lights, scenes, thermostats, Sonos)
+- Reliability + enclosure + clean power
 
-```bash
-cp esphome/secrets.yaml.example esphome/secrets.yaml
+See `ROADMAP.md`.
+
+---
+
+## Quick install
+
+1) Add secrets (or reuse your existing `secrets.yaml`):
+- `wifi_ssid`, `wifi_password`, `api_encryption_key`, `ota_password`
+
+2) Flash from ESPHome Builder/Dashboard:
+- Use the config in `esphome/minicam-esp32.yaml`
+- Install via USB for first flash, then OTA
+
+3) Verify:
+- Stream: `http://<IP>:8080`
+- Snapshot: `http://<IP>:8081`
+
+---
+
+## Repository structure
